@@ -1,3 +1,6 @@
+import Button from "./Button";
+import PropTypes from "prop-types";
+
 const Header = () => {
   return (
     <header className="header m-2">
@@ -6,7 +9,8 @@ const Header = () => {
           <h1>PMIS APP</h1>
         </div>
         <div class="col-sm-4">
-          <button className="btn btn-primary btn-sm">View</button>
+          <Button color="green" text="Hello" />
+          <Button color="blue" text="Pulasthi" />
         </div>
       </div>
     </header>
